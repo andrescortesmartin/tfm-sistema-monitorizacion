@@ -1,0 +1,27 @@
+SELECT
+  nth(3, tokens(topic, '/')) AS gateway_id,
+  now_timestamp() as msg_ts,
+  payload.gw_online as gw_online,
+  payload.gw_last_status_received_at as gw_last_status_received_at,
+  payload.gw_last_uplink_received_at as gw_last_uplink_received_at,
+  payload.gw_last_downlink_received_at as gw_last_downlink_received_at,
+  payload.gw_connected_at as gw_connected_at,
+  payload.gw_disconnected_at as gw_disconnected_at,
+  payload.gw_uplink_count as gw_uplink_count,
+  payload.gw_downlink_count as gw_downlink_count,
+  payload.gw_tx_ack_count as gw_tx_ack_count,
+  payload.gw_rxin as gw_rxin,
+  payload.gw_rxok as gw_rxok,
+  payload.gw_rxfw as gw_rxfw,
+  payload.gw_txin as gw_txin,
+  payload.gw_txok as gw_txok,
+  payload.gw_ackr as gw_ackr,
+  payload.gw_rtt_median_ms as gw_rtt_median_ms,
+  payload.gw_rtt_min_ms as gw_rtt_min_ms,
+  payload.gw_rtt_max_ms as gw_rtt_max_ms,
+  payload.gw_rtt_count as gw_rtt_count,
+  payload.gw_remote_ip as gw_remote_ip,
+  payload.gw_protocol as gw_protocol,
+  payload.gw_uplink_rate_pph as gw_uplink_rate_pph
+FROM
+  "tb/gateway_status/+"

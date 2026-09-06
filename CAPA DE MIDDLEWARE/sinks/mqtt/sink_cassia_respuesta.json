@@ -1,0 +1,17 @@
+Topic:   v1/gateway/telemtry
+Payload:
+{
+  "${gateway_id}": [
+    {
+      "ts": ${msg_ts},
+      "values": {
+        "last_response": {
+          "cmd": "${cmd}",
+          "mac": "${mac}",
+          "status": "${status}",
+          "data": ${data}
+        }
+      }
+    }
+  ]
+}

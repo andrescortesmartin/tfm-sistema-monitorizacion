@@ -1,0 +1,25 @@
+Topic:   v1/gateway/telemtry
+Payload:
+{
+  "${device_id}": [
+    {
+      "ts": ${msg_ts},
+      "values": {
+        "mem_free": ${mem_free},
+        "mem_alloc": ${mem_alloc},
+        "uptime_gw": ${uptime_gw},
+        "filtro_rssi": ${filtro_rssi},
+        "uptime_script": ${uptime_script},
+        "ip": "${ip}",
+        "wifi_signal": ${wifi_signal},
+        "uplink": "${uplink}",
+        "version": "${version}",
+        "visibles": ${visibles},
+        "pausa_autonomo": ${pausa_autonomo},
+        "umbral_descarga": ${umbral_descarga},
+        "known_macs": ${known_macs},
+        "ts_heartbeat": ${msg_ts}
+      }
+    }
+  ]
+}

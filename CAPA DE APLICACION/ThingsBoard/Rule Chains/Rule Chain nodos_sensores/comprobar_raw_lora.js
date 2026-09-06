@@ -1,0 +1,1 @@
+return typeof msg.raw_lora === 'string' && msg.raw_lora.length > 0;

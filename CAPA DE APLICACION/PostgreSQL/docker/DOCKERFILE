@@ -1,0 +1,6 @@
+FROM postgres:16
+RUN apt-get update && \
+    apt-get install -y postgresql-16-cron postgresql-plpython3-16 python3-pip && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* && \
+    python3 -m pip install --no-cache-dir --break-system-packages scikit-learn joblib

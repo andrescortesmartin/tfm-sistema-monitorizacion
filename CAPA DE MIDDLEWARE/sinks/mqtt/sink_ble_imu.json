@@ -1,0 +1,12 @@
+Topic:   v1/gateway/telemetry
+Payload:
+{
+  "${device_id}": [
+    {
+      "ts": ${msg_ts},
+      "values": {
+        "raw_imu": "${raw_data}"
+      }
+    }
+  ]
+}

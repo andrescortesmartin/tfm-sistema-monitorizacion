@@ -1,0 +1,23 @@
+Topic:   v1/gateway/telemetry
+Payload:
+{
+  "${device_id}": [
+    {
+      "ts": ${msg_ts},
+      "values": {
+        "rttof_addr": "${rttof_addr}",
+        "ranging_count": ${ranging_count},
+        "discard_count": ${discard_count},
+        "last_rssi": ${last_rssi},
+        "last_snr": ${last_snr},
+        "temperatura": ${temperatura},
+        "humedad": ${humedad},
+        "heartbeat_interval_s": ${heartbeat_interval_s},
+        "lora_sf": ${lora_sf},
+        "lora_bw": ${lora_bw},
+        "rssi_lorawan": ${rssi_lorawan},
+        "snr_lorawan": ${snr_lorawan}
+      }
+    }
+  ]
+}

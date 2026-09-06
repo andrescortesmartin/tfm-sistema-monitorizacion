@@ -1,0 +1,1 @@
+return typeof msg.raw_imu === 'string' && msg.raw_imu.length > 0;

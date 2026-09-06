@@ -1,0 +1,39 @@
+# Salidas de compilacion (se regeneran al hacer Build)
+Output/
+_build/
+*.o
+*.d
+*.lst
+*.elf
+*.map
+*.bin
+*.hex
+
+# Los .hex del SoftDevice si hacen falta para flashear
+!**/softdevice/**/*.hex
+
+# Segger Embedded Studio: estado personal de la sesion
+*.emSession
+*.emSession.*
+*_user.jlink
+
+# Ficheros que sobran (recursos de docs de terceros)
+*.mp4
+*.avi
+*.mov
+components/external/fatfs/doc/res/mkfs.xls
+components/external/fatfs/doc/res/mkfatimg.zip
+
+# Basura de SO / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (scripts de utilidad del SDK)
+__pycache__/
+*.pyc

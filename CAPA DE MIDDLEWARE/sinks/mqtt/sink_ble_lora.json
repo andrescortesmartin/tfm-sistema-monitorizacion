@@ -1,0 +1,12 @@
+Topic:   v1/gateway/telemtry
+Payload:
+{
+  "${device_id}": [
+    {
+      "ts": ${msg_ts},
+      "values": {
+        "raw_lora": "${raw_data}"
+      }
+    }
+  ]
+}

@@ -16,6 +16,6 @@ Ver el README de cada carpeta para el detalle funcional específico de cada disp
 
 | Sección | Memoria | Anexo |
 |---|---|---|
-| Anclas LoRa | Capítulo 4 | Anexo IV |
-| Nodos sensores | Capítulo 4 y 5 | Anexo V |
-| Balizas móviles | Capítulo 4 | Anexo III |
+| Anclas LoRa | Capítulo 4.1 | Anexo IV |
+| Nodos sensores | Capítulo 4.1 y 4.2 | Anexo V |
+| Balizas móviles | Capítulo 4.1 | Anexo III |

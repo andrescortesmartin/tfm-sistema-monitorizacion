@@ -35,3 +35,9 @@ El funcionamiento detallado de cada rule chain (flujo de nodos, ramas condiciona
 | `widget_configuracion_nodos_sensores.js` | Configuración de nodo sensor (lectura/escritura de `logger_config_t` vía BLE) | Markdown/HTML Card | Apariencia - Función de valor Markdown/HTML |
 
 > **Nota sobre `widget_configuracion_nodos_sensores.js`:** el layout de offsets de 39 bytes que codifica/decodifica debe mantenerse sincronizado con el struct `logger_config_t` del firmware. Ver Anexo IX, sección firmware.
+
+## Referencias
+
+| Sección | Memoria | Anexo |
+|---|---|---|
+| Aplicación / ThingsBoard | Capítulo 4.5.1 | Anexo IX |

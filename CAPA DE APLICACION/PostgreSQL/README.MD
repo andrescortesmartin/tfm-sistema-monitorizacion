@@ -24,5 +24,5 @@ Una función por fichero. La mayoría son `plpgsql` a excepción de `predecir_co
 
 | Sección | Memoria | Anexo |
 |---|---|---|
-| Aplicación / PostgreSQL — Tablas | Capítulo 4.5 | Anexo X |
-| Aplicación / PostgreSQL — Funciones | Capítulo 4.6 | Anexo XI |
+| Aplicación / PostgreSQL — Tablas | Capítulo 4.5.2 | Anexo X |
+| Aplicación / PostgreSQL — Funciones | Capítulo 4.6.1 a 4.6.4 | Anexo XI y Anexo II |

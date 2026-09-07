@@ -7,7 +7,7 @@ Pruebas experimentales de validación del sistema: datos crudos (CSV/XLSX export
 | Carpeta | Prueba | Memoria | Anexo |
 |---|---|---|---|
 | [`descarga_ble/`](descarga_ble/) | Throughput y RSSI de la descarga de flash por BLE en función de la distancia y el tamaño de paquete | Capítulo 4.7.2 | Anexo XII |
-| [`posicionamiento/`](posicionamiento/) | Validación de la posición estimada (ranging LoRa + trilateración y GNSS) frente a referencia por cinta métrica y comparación de ocupación de zonas | Capítulo 4.7.3 | Anexo XII |
+| [`posicionamiento/`](posicionamiento/) | Validación de la posición estimada (ranging LoRa + trilateración y GNSS) frente a referencia por cinta métrica y comparación de ocupación de zonas | Capítulo 4.7.3 | Anexo XII y Anexo II |
 | [`indicadores_clasificacion/`](indicadores_clasificacion/) | Validación del modelo de clasificación de comportamiento frente a posturas estáticas de referencia y a vídeo anotado | Capítulo 4.7.4 | Anexo XII |
 
 ## Reproducción
